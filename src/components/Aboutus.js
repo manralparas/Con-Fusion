@@ -12,7 +12,7 @@ function RenderLeader({leader})
         <div className="row">
             
                 <Media left middle>
-                <Media object src={baseUrl+leader.image} alt={leader.name} />
+                <Media object src={baseUrl+leader.image} alt={leader.name} className="image" />
                 </Media>
                 <Media body className="ml-5">
                     <Media heading>{leader.name}</Media>

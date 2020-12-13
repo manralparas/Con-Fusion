@@ -9,16 +9,25 @@
     border-bottom: 1px ridge;
     min-height:400px;
 }
-
+.image{
+    object-fit: contain;
+    height: 180px;
+    width:160px;
+}
+.home_image{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
 .footer{
-    background-color: #D1C4E9;
+    background-color: #5cdb95;
     margin:0px auto;
     padding: 20px 0px 20px 0px;
 }
 .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
-    background: #9575CD !important;
+    background: #379683 !important;
     color:floralwhite;
 }
 
@@ -29,7 +38,7 @@ address{
 }
 
 .navbar-dark {
-    background-color: #512DA8;
+    background-color: #05386B;
 }
 
 .page-enter {
