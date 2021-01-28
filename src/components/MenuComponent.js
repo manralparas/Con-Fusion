@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardImg, CardImgOverlay,
-    CardTitle, Breadcrumb, BreadcrumbItem } from 'reactstrap';
+    CardTitle,CardBody, Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import {Link} from 'react-router-dom';
 import { Loading } from './LoadingComponent';
 import { baseUrl } from '../shared/BaseUrl';
@@ -12,11 +12,9 @@ import { baseUrl } from '../shared/BaseUrl';
         return (
             <Card>
                 <Link to={`/menu/${dish.id}`} >
-                <CardImg width="100%" src={baseUrl+dish.image} alt={dish.name} />
-                <CardImgOverlay>
-                    <CardTitle>{dish.name}</CardTitle>
-                </CardImgOverlay>
+                <CardImg width="100%" src={baseUrl+dish.image} alt={dish.name} className="menu__image"/>
                 </Link>
+                <CardBody>{dish.name}</CardBody>
             </Card>
         );
     }

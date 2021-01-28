@@ -9,6 +9,10 @@
     border-bottom: 1px ridge;
     min-height:400px;
 }
+.menu__image{
+  height: 368px; 
+  width: 368px;
+}
 .image{
     object-fit: contain;
     height: 180px;
@@ -17,7 +21,7 @@
 .home_image{
     height: 200px;
     width: 200px;
-    object-fit: contain;
+    
 }
 .footer{
     background-color: #5cdb95;

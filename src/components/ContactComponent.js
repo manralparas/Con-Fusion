@@ -11,8 +11,6 @@ const validEmail=(val)=> /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(val);
 
         constructor(props) {
             super(props);
-    
-           
             this.handleSubmit = this.handleSubmit.bind(this);
             
         }
@@ -74,7 +72,7 @@ render() {
                                      <Errors
                                         className="text-danger"
                                         model=".firstname"
-                                        show="touched"
+                                        show="submit"
                                         messages={{
                                             required: 'Required',
                                             minLength: 'Must be greater than 2 characters',
