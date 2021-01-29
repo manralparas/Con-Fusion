@@ -21,9 +21,9 @@ function Footer(props) {
                     <address>
 		              121, Clear Water Bay Road<br />
 		              Clear Water Bay, Kowloon<br />
-		              HONG KONG<br />
-		              <i className="fa fa-phone fa-lg"></i>: +910001198238<br />
-		              <i className="fa fa-fax fa-lg"></i>: +9837847875<br />
+		              <br />
+		              <i className="fa fa-phone fa-lg"></i>: +91XXXXXXX<br />
+		              <i className="fa fa-fax fa-lg"></i>:+91XXXXXXX<br />
 		              <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:manralparas@gmail.com">
                          manralparas@gmail.com</a>
                     </address>

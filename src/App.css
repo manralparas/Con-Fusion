@@ -19,30 +19,29 @@
     width:160px;
 }
 .home_image{
-    height: 200px;
-    width: 200px;
     
 }
 .footer{
-    background-color: #5cdb95;
-    margin:0px auto;
+    font-size:15px;
+    background-color: #FFF275;
+    margin:50px 0  auto auto;
     padding: 20px 0px 20px 0px;
 }
 .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
-    background: #379683 !important;
-    color:floralwhite;
+    background: #FFF275 !important;
+    color:#212529;
 }
 
-address{
+.address{
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
 }
 
 .navbar-dark {
-    background-color: #05386B;
+    background-color:#212529;
 }
 
 .page-enter {
