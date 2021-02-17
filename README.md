@@ -1,31 +1,37 @@
-##Con-Fusion
+## Con-Fusion
 
 <p>Single Page Front-end of restaurant web app using React</p>
 <p>Redux is used for state management data is fetching from json-server which is used to simulate api server and serving on heroku server</p>
-<p>Bootstarp is used for UI components</P>
+<p>Bootstarp is used for UI components</p>
 <br/>
 <br/>
 <br/>
+
 ![Screenshot from 2021-02-17 20-21-20](https://user-images.githubusercontent.com/35651201/108221596-fa4a4280-715d-11eb-8f74-aff73a86cc7f.png)
 <br/>
 <br/>
 <br/>
+
 ![Screenshot from 2021-02-17 20-21-40](https://user-images.githubusercontent.com/35651201/108221603-fcac9c80-715d-11eb-9da5-a1bdf7b1608f.png)
 <br/>
 <br/>
 <br/>
+
 ![Screenshot from 2021-02-17 20-21-48](https://user-images.githubusercontent.com/35651201/108221609-fdddc980-715d-11eb-9bfa-d9074a52f0cb.png)
 <br/>
 <br/>
 <br/>
+
 ![Screenshot from 2021-02-17 20-21-59](https://user-images.githubusercontent.com/35651201/108221613-fe766000-715d-11eb-882e-8fd217329f92.png)
 <br/>
 <br/>
 <br/>
+
 ![Screenshot from 2021-02-17 20-22-12](https://user-images.githubusercontent.com/35651201/108221617-ff0ef680-715d-11eb-9311-a96db5f9d0ba.png)
 
 <p>Project is hosted at heroku's free-dyno so please wait for some time during visit :D</p>
 <a href="https://confusion119.herokuapp.com/home">click here</a>
+<br/>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
